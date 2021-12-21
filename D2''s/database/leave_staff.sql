@@ -40,7 +40,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `UserName`, `Password`, `updationDate`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', '2020-11-03 05:55:30');
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', '2021-12-03 05:55:30');
 
 -- --------------------------------------------------------
 
@@ -60,8 +60,8 @@ CREATE TABLE `tbldepartments` (
 --
 
 INSERT INTO `tbldepartments` (`id`, `DepartmentName`, `DepartmentShortName`, `CreationDate`) VALUES
-(2, 'Information Technologies', 'ICT', '2017-11-01 07:19:37'),
-(3, 'Library', 'LIb', '2021-05-21 08:27:45');
+(2, 'Information Technologies', 'ICT', '2021-12-04 07:19:37'),
+(3, 'Library', 'LIb', '2021-12-05 08:27:45');
 
 -- --------------------------------------------------------
 
@@ -92,12 +92,12 @@ CREATE TABLE `tblemployees` (
 --
 
 INSERT INTO `tblemployees` (`emp_id`, `FirstName`, `LastName`, `EmailId`, `Password`, `Gender`, `Dob`, `Department`, `Address`, `Av_leave`, `Phonenumber`, `Status`, `RegDate`, `role`, `location`) VALUES
-(1, 'Janobe', 'Martins', 'janobe@janobe.com', '36d59e2369f00c4d9f336acf4408bae9', 'Male', '3 February, 1990', 'ICT', 'N NEPO', '30', '0248865955', 1, '2017-11-10 11:29:59', 'Staff', 'NO-IMAGE-AVAILABLE.jpg'),
-(2, 'Edem', 'Mcwilliams', 'james@gmail.com', 'b4cc344d25a2efe540adbf2678e2304c', 'Male', '3 February, 1990', 'ICT', 'N NEPO', '30', '8587944255', 1, '2017-11-10 13:40:02', 'Admin', 'photo2.jpg'),
-(4, 'Nathaniel', 'Nkrumah', 'nat@gmail.com', 'b4cc344d25a2efe540adbf2678e2304c', 'Male', '3 February, 1990', 'ICT', 'N NEPO', '30', '587944255', 1, '2017-11-10 13:40:02', 'Admin', 'NO-IMAGE-AVAILABLE.jpg'),
-(5, 'Gideon', 'Annan', 'gideon@gmail.com', 'b4cc344d25a2efe540adbf2678e2304c', 'Male', '3 February, 1990', 'ICT', 'N NEPO', '30', '587944255', 1, '2017-11-10 13:40:02', 'HOD', 'photo5.jpg'),
-(6, 'Martha', 'Arthur', 'mat@gmail.com', 'b4cc344d25a2efe540adbf2678e2304c', 'Female', '3 February, 1990', 'LIb', 'N NEPO', '30', '587944255', 1, '2017-11-10 13:40:02', 'Staff', 'NO-IMAGE-AVAILABLE.jpg'),
-(7, 'Bridget', 'Gafa', 'bridget@gmail.com', 'b4cc344d25a2efe540adbf2678e2304c', 'Female', '3 February, 1990', 'ICT', 'N NEPO', '1', '0596667981', 1, '2017-11-10 13:40:02', 'Staff', '1920_File_logo4.png'),
+(1, 'Kurtis', 'Bengo', 'kurtis@gmail.com', 'c85a6a3b872ccdc150bb766a4fd64ad2', 'Male', '16 October, 2000', 'ICT', '27701', '20', '0757915512', 1, '2021-12-10 11:29:59', 'Staff', 'NO-IMAGE-AVAILABLE.jpg'),
+(2, 'Levi', 'Wesonga', 'levywes@gmail.com', '1ffd9e753c8054cc61456ac7fac1ac89', 'Male', '3 April, 1999', 'ICT', '18920', '30', '0742345930', 1, '2021-12-10 13:40:02', 'Admin', 'NO-IMAGE-AVAILABLE.jpg'),
+(4, 'Munene', 'Ray', 'munene@gmail.com', '6d0d040c157456a373324fcd2b0d4f3a', 'Male', '3 February, 1998', 'ICT', '12345', '30', '587944255', 1, '2021-12-11 13:40:02', 'HOD', 'NO-IMAGE-AVAILABLE.jpg'),
+(5, 'James', 'Riri', 'riri@gmail.com', 'c740d6848b6a342dcc26c177ea2c49fe', 'Male', '3 August, 2000', 'ICT', '09876', '20', '0712345678', 1, '2021-12-10 13:40:02', 'Staff', 'NO-IMAGE-AVAILABLE.jpg'),
+(6, 'Bruno', 'Arthur', 'bruno@gmail.com', 'e3928a3bc4be46516aa33a79bbdfdb08', 'Male', '3 March, 1998', 'LIb', '23456', '20', '078906543', 1, '2021-12-10 13:40:02', 'HOD', 'NO-IMAGE-AVAILABLE.jpg'),
+(7, 'Bridget', 'Gafa', 'bridget@gmail.com', 'b4cc344d25a2efe540adbf2678e2304c', 'Female', '3 February, 1990', 'ICT', 'N NEPO', '1', '0596667981', 1, '2017-11-10 13:40:02', 'Staff', 'NO-IMAGE-AVAILABLE.jpg'),
 (8, 'Anna', 'Mensah', 'an@gmail.com', 'b4cc344d25a2efe540adbf2678e2304c', 'Female', '3 February, 1990', 'ICT', 'N NEPO', '30', '587944255', 1, '2017-11-10 13:40:02', 'HOD', 'NO-IMAGE-AVAILABLE.jpg');
 
 -- --------------------------------------------------------
