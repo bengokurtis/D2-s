@@ -39,13 +39,23 @@ This project is stable and ready for production.
 Features
 
 Comprehensive online documentation (English).
+
 Notifications by e-mail (requested, accepted, rejected and new user).
+
 Leave request approval workflow (1 validator).
+
 Leave balance report (filtered by department).
+
 Monthly presence report.
+
 Export to XLSX (Excel, LibreOffice) in a click (almost all pages of the application).
+
 HOD users can edit any leave or overtime request.
+
 Set your own contracts and leave types.
+
 Calendars of leaves (individual, team, collaborators, etc.).
+
 Describe your organization in a tree structure and attach employees to entities, define a supervisor per entity.
+
 REST API (OAuth2) fully documented and examples with PHP clients.
